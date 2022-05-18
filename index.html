@@ -10,6 +10,9 @@
       crossorigin="anonymous"
     />
     <style>
+      * {
+        box-sizing: border-box;
+      }
         .form-control {
           margin: 32px;
         }
@@ -22,25 +25,31 @@
   <body>
     <form>
       <div class ="form-control">
-        <input type="text" name="html" value="HTML" disabled>
+        <input type="text" name="primaryLanguage" value="HTML" disabled>
       </div>
       <div class ="form-control">
         <input type="checkbox" name="agre" unchecked>
       </div>
       <div class ="form-control">
-        <input type="checkbox" name="agre" checked >
+        <input type="checkbox" name="like" checked >
       </div>
       <div class ="form-control">
-        <input type="number" name="form-control-number">
+        <input type="color" name="favouriteColor" value="#ff7f50">
       </div>
       <div class ="form-control">
-        <input type="date" name="form-control-date">
+        <input type="date" name="birthDate" value="2021-01-02">
       </div>
       <div class ="form-control">
-        <input type="datetime-local" name="form-control-datetime-local" >
+        <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
       </div>
       <div class ="form-control">
-        <input type="email"  placeholder="example@domain.com" name="form-control-email" >
+        <input type="email"  placeholder="example@domain.com" name="email" >
+      </div>
+      <div class ="form-control">
+        <input type="file"  name="avatar" >
+      </div>
+      <div class ="form-control">
+        <input type="month"  name="startLearning" value="2020-01" >
       </div>
 
 
