@@ -9,14 +9,41 @@
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+        .form-control {
+          margin: 32px;
+        }
+        input {
+          margin: 8px;
+        }
+    </style>
   </head>
 
   <body>
-    <label class="checkbox"
-      >Checkbox
-      <input type="checkbox" />
-      <span class="checkmark"></span>
-    </label>
+    <form>
+      <div class ="form-control">
+        <input type="text" name="html" value="HTML" disabled>
+      </div>
+      <div class ="form-control">
+        <input type="checkbox" name="agre" unchecked>
+      </div>
+      <div class ="form-control">
+        <input type="checkbox" name="agre" checked >
+      </div>
+      <div class ="form-control">
+        <input type="number" name="form-control-number">
+      </div>
+      <div class ="form-control">
+        <input type="date" name="form-control-date">
+      </div>
+      <div class ="form-control">
+        <input type="datetime-local" name="form-control-datetime-local" >
+      </div>
+      <div class ="form-control">
+        <input type="email"  placeholder="example@domain.com" name="form-control-email" >
+      </div>
+
+
+    </form>
   </body>
 </html>
