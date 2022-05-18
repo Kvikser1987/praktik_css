@@ -10,11 +10,13 @@ input[type="checkbox"] {
     height: 25px;
     background-color:#d3d3d3;
     position: absolute;
-    display: inline-blockss;
+    display: inline-block;
     top:0;
     left: 0px;
   }
   .checkbox {
+    display: inline-block;
+    
     margin: 16px;
     padding-left: 35px;
     position: relative;
